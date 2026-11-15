@@ -11,6 +11,7 @@ export default defineConfig({
     ['html', { outputFolder: 'playwright-report', open: 'never' }],
   ],
   use: {
+    headless: false,
     baseURL: 'https://demo.playwright.dev/todomvc/',
     trace: 'on-first-retry',
     screenshot: 'only-on-failure',
