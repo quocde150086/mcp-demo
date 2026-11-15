@@ -1,52 +1,99 @@
-import { test, expect } from '../fixtures/test';
+import { test, expect } from "../fixtures/test";
+import { TodoPage } from "../pages/todo-page";
 
-test.describe('TodoMVC', () => {
-  test('adds a todo', async ({ todoPage }) => {
-    await todoPage.addTodo('Write Playwright tests');
+async function performUiAction(
+  todoPage: TodoPage,
+  name: string,
+  action: () => Promise<void>,
+): Promise<void> {
+  await test.step(name, async () => {
+    await action();
+    await todoPage.page.waitForTimeout(2000);
+  });
+}
 
-    await expect(todoPage.todoItem('Write Playwright tests')).toBeVisible();
-    await expect(todoPage.todoItems).toHaveCount(1);
+test.describe("TodoMVC", () => {
+  test("adds a todo", async ({ todoPage }) => {
+    await performUiAction(todoPage, "Add a todo", () =>
+      todoPage.addTodo("Write Playwright tests"),
+    );
+
+    await test.step("Verify the todo was added", async () => {
+      await expect(todoPage.todoItem("Write Playwright tests")).toBeVisible();
+      await expect(todoPage.todoItems).toHaveCount(1);
+    });
   });
 
-  test('edits a todo', async ({ todoPage }) => {
-    await todoPage.addTodo('Old title');
-    await todoPage.editTodo('Old title', 'Updated title');
+  test("edits one todo and deletes another", async ({ todoPage }) => {
+    await performUiAction(todoPage, "Add the todo to edit", () =>
+      todoPage.addTodo("Old title"),
+    );
+    await performUiAction(todoPage, "Add the todo to delete", () =>
+      todoPage.addTodo("Remove this todo"),
+    );
+    await performUiAction(todoPage, "Edit the first todo", () =>
+      todoPage.editTodo("Old title", "Updated title"),
+    );
+    await performUiAction(todoPage, "Delete the second todo", () =>
+      todoPage.deleteTodo("Remove this todo"),
+    );
 
-    await expect(todoPage.todoItem('Updated title')).toBeVisible();
-    await expect(todoPage.todoItem('Old title')).toHaveCount(0);
+    await test.step("Verify the edit and deletion", async () => {
+      await expect(todoPage.todoItem("Updated title")).toBeVisible();
+      await expect(todoPage.todoItem("Old title")).toHaveCount(0);
+      await expect(todoPage.todoItem("Remove this todo")).toHaveCount(0);
+      await expect(todoPage.todoItems).toHaveCount(1);
+    });
   });
 
-  test('deletes a todo', async ({ todoPage }) => {
-    await todoPage.addTodo('Remove this todo');
-    await todoPage.deleteTodo('Remove this todo');
+  test("completes a todo", async ({ todoPage }) => {
+    await performUiAction(todoPage, "Add a todo", () =>
+      todoPage.addTodo("Completed work"),
+    );
+    await performUiAction(todoPage, "Complete the todo", () =>
+      todoPage.completeTodo("Completed work"),
+    );
 
-    await expect(todoPage.todoItems).toHaveCount(0);
+    await test.step("Verify the todo is completed", async () => {
+      await expect(todoPage.todoItem("Completed work")).toHaveClass(/completed/);
+      await expect(
+        todoPage.todoItem("Completed work").getByRole("checkbox"),
+      ).toBeChecked();
+    });
   });
 
-  test('completes a todo', async ({ todoPage }) => {
-    await todoPage.addTodo('Completed work');
-    await todoPage.completeTodo('Completed work');
+  test("filters active and completed todos", async ({ todoPage }) => {
+    await performUiAction(todoPage, "Add an active todo", () =>
+      todoPage.addTodo("Active task"),
+    );
+    await performUiAction(todoPage, "Add a todo to complete", () =>
+      todoPage.addTodo("Finished task"),
+    );
+    await performUiAction(todoPage, "Complete the second todo", () =>
+      todoPage.completeTodo("Finished task"),
+    );
 
-    await expect(todoPage.todoItem('Completed work')).toHaveClass(/completed/);
-    await expect(todoPage.todoItem('Completed work').getByRole('checkbox')).toBeChecked();
-  });
+    await performUiAction(todoPage, "Filter active todos", () =>
+      todoPage.showActive(),
+    );
+    await test.step("Verify only the active todo is shown", async () => {
+      await expect(todoPage.todoItems).toHaveCount(1);
+      await expect(todoPage.todoItem("Active task")).toBeVisible();
+      await expect(todoPage.todoItem("Finished task")).toHaveCount(0);
+    });
 
-  test('filters active and completed todos', async ({ todoPage }) => {
-    await todoPage.addTodo('Active task');
-    await todoPage.addTodo('Finished task');
-    await todoPage.completeTodo('Finished task');
+    await performUiAction(todoPage, "Filter completed todos", () =>
+      todoPage.showCompleted(),
+    );
+    await test.step("Verify only the completed todo is shown", async () => {
+      await expect(todoPage.todoItems).toHaveCount(1);
+      await expect(todoPage.todoItem("Finished task")).toBeVisible();
+      await expect(todoPage.todoItem("Active task")).toHaveCount(0);
+    });
 
-    await todoPage.showActive();
-    await expect(todoPage.todoItems).toHaveCount(1);
-    await expect(todoPage.todoItem('Active task')).toBeVisible();
-    await expect(todoPage.todoItem('Finished task')).toHaveCount(0);
-
-    await todoPage.showCompleted();
-    await expect(todoPage.todoItems).toHaveCount(1);
-    await expect(todoPage.todoItem('Finished task')).toBeVisible();
-    await expect(todoPage.todoItem('Active task')).toHaveCount(0);
-
-    await todoPage.showAll();
-    await expect(todoPage.todoItems).toHaveCount(2);
+    await performUiAction(todoPage, "Show all todos", () => todoPage.showAll());
+    await test.step("Verify all todos are shown", async () => {
+      await expect(todoPage.todoItems).toHaveCount(2);
+    });
   });
 });
