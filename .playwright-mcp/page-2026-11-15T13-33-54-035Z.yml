@@ -1,0 +1,300 @@
+- generic [active] [ref=f2e1]:
+  - generic:
+    - generic:
+      - link "Bỏ qua để đến phần nội dung chính" [ref=f2e2] [cursor=pointer]
+      - link "Hỗ trợ truy cập" [ref=f2e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=vi
+  - generic [ref=f2e8]:
+    - search [ref=f2e9]:
+      - generic [ref=f2e12]:
+        - link [ref=f2e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=vi&ictx=0&sa=X&ved=2ahUKEwicpIGyi4qYAxXxbvUHHVPlEUkQpYkNegQIBhAG
+          - img "Truy cập trang chủ Google" [ref=f2e14]
+        - generic [ref=f2e19]:
+          - combobox "Tìm kiếm" [ref=f2e21]: FUN360 Create Assignment FUN360 Create Assignment
+          - generic [ref=f2e22]:
+            - button "Xóa" [ref=f2e26] [cursor=pointer]
+            - generic [ref=f2e31]:
+              - button "Công cụ nhập" [ref=f2e34] [cursor=pointer]
+              - button "Tìm kiếm bằng giọng nói" [ref=f2e40] [cursor=pointer]
+              - button "Tìm kiếm bằng hình ảnh" [ref=f2e45] [cursor=pointer]
+    - generic [ref=f2e48]:
+      - button "Cài đặt" [ref=f2e50] [cursor=pointer]
+      - button "Chia sẻ" [ref=f2e55] [cursor=pointer]
+      - generic [ref=f2e61]:
+        - button "Các ứng dụng của Google" [ref=f2e63] [cursor=pointer]
+        - link "Đăng nhập" [ref=f2e68] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=vi&passive=true&continue=https://www.google.com/search%3Fq%3DFUN360%2BCreate%2BAssignment%26sei%3Dv7T5asP1D6zm1e8PutPGyAE&ec=futura_srp_og_si_72236_p
+  - generic [ref=f2e70]:
+    - navigation [ref=f2e76]:
+      - generic [ref=f2e82]:
+        - list [ref=f2e83]:
+          - listitem [ref=f2e84]:
+            - link "Chế độ AI" [ref=f2e87] [cursor=pointer]:
+              - /url: /search?q=FUN360+Create+Assignment&sca_esv=8528aeba63dde0f5&sxsrf=AKL5yDhE6D-zSMrn29i4gYbELcD1-z6U8Q:1794749631691&udm=50&fbs=ACAhTvyChJCcJRW6CZK_ISUtpNyA589HsRUXw80ldSvb_jSXnolR9IeDXaGAIom3SjrnOE7lAjJ3MbMMI4aMOBHA2nbf44BMhG9z_fx3e1Wjdq28W-VOGUTCpAsZpwXpRt-3Rq9Jj4J7x-b4tILml6aqBAUpvhcj46qiEgWPJ9brNGb6B6WRg4MQFZwEqp-D3c3MF7WTtHOL-RsB6yIuScOPqc4vC-grtCTR58ydUWGRSEeXBfZyeTt3lNIAXyjauCCGr2mmuFbz&vsint=&aep=1&ntc=1&cs=0&sa=X&ved=2ahUKEwicpIGyi4qYAxXxbvUHHVPlEUkQ2J8OegQIFBAD
+          - listitem [ref=f2e91]:
+            - link "Tất cả" [disabled] [ref=f2e92]
+          - listitem [ref=f2e95]:
+            - link "Hình ảnh" [ref=f2e96] [cursor=pointer]:
+              - /url: /search?sca_esv=8528aeba63dde0f5&sxsrf=AKL5yDhE6D-zSMrn29i4gYbELcD1-z6U8Q:1794749631691&udm=2&fbs=ACAhTvyChJCcJRW6CZK_ISUtpNyA589HsRUXw80ldSvb_jSXnolR9IeDXaGAIom3SjrnOE7lAjJ3MbMMI4aMOBHA2nbf44BMhG9z_fx3e1Wjdq28W-VOGUTCpAsZpwXpRt-3Rq9Jj4J7x-b4tILml6aqBAUpvhcj46qiEgWPJ9brNGb6B6WRg4MQFZwEqp-D3c3MF7WTtHOL-RsB6yIuScOPqc4vC-grtCTR58ydUWGRSEeXBfZyeTt3lNIAXyjauCCGr2mmuFbz&q=FUN360+Create+Assignment&sa=X&ved=2ahUKEwicpIGyi4qYAxXxbvUHHVPlEUkQtKgLegQIGxAB
+          - listitem [ref=f2e99]:
+            - link "Video" [ref=f2e100] [cursor=pointer]:
+              - /url: /search?sca_esv=8528aeba63dde0f5&sxsrf=AKL5yDhE6D-zSMrn29i4gYbELcD1-z6U8Q:1794749631691&udm=vids&fbs=ACAhTvyChJCcJRW6CZK_ISUtpNyA589HsRUXw80ldSvb_jSXnolR9IeDXaGAIom3SjrnOE7lAjJ3MbMMI4aMOBHA2nbf44BMhG9z_fx3e1Wjdq28W-VOGUTCpAsZpwXpRt-3Rq9Jj4J7x-b4tILml6aqBAUpvhcj46qiEgWPJ9brNGb6B6WRg4MQFZwEqp-D3c3MF7WTtHOL-RsB6yIuScOPqc4vC-grtCTR58ydUWGRSEeXBfZyeTt3lNIAXyjauCCGr2mmuFbz&q=FUN360+Create+Assignment&sa=X&ved=2ahUKEwicpIGyi4qYAxXxbvUHHVPlEUkQtKgLegQIGhAB
+          - listitem [ref=f2e103]:
+            - link "Mua sắm" [ref=f2e104] [cursor=pointer]:
+              - /url: /search?sca_esv=8528aeba63dde0f5&sxsrf=AKL5yDhE6D-zSMrn29i4gYbELcD1-z6U8Q:1794749631691&udm=28&fbs=ACAhTvyChJCcJRW6CZK_ISUtpNyA589HsRUXw80ldSvb_jSXnolR9IeDXaGAIom3SjrnOE7lAjJ3MbMMI4aMOBHA2nbf44BMhG9z_fx3e1Wjdq28W-VOGUTCpAsZpwXpRt-3Rq9Jj4J7x-b4tILml6aqBAUpvhcj46qiEgWPJ9brNGb6B6WRg4MQFZwEqp-D3c3MF7WTtHOL-RsB6yIuScOPqc4vC-grtCTR58ydUWGRSEeXBfZyeTt3lNIAXyjauCCGr2mmuFbz&q=FUN360+Create+Assignment&ved=1t:220175&ictx=111
+          - listitem [ref=f2e107]:
+            - link "Tin tức" [ref=f2e108] [cursor=pointer]:
+              - /url: /search?sca_esv=8528aeba63dde0f5&sxsrf=AKL5yDhE6D-zSMrn29i4gYbELcD1-z6U8Q:1794749631691&q=FUN360+Create+Assignment&tbm=nws&source=lnms&fbs=ACAhTvyChJCcJRW6CZK_ISUtpNyA589HsRUXw80ldSvb_jSXnolR9IeDXaGAIom3SjrnOE7lAjJ3MbMMI4aMOBHA2nbf44BMhG9z_fx3e1Wjdq28W-VOGUTCpAsZpwXpRt-3Rq9Jj4J7x-b4tILml6aqBAUpvhcj46qiEgWPJ9brNGb6B6WRg4MQFZwEqp-D3c3MF7WTtHOL-RsB6yIuScOPqc4vC-grtCTR58ydUWGRSEeXBfZyeTt3lNIAXyjauCCGr2mmuFbz&sa=X&ved=2ahUKEwicpIGyi4qYAxXxbvUHHVPlEUkQ0pQJegQIGBAB
+          - listitem [ref=f2e111]:
+            - link "Video ngắn" [ref=f2e112] [cursor=pointer]:
+              - /url: /search?sca_esv=8528aeba63dde0f5&sxsrf=AKL5yDhE6D-zSMrn29i4gYbELcD1-z6U8Q:1794749631691&udm=short_vids&fbs=ACAhTvyChJCcJRW6CZK_ISUtpNyA589HsRUXw80ldSvb_jSXnolR9IeDXaGAIom3SjrnOE7lAjJ3MbMMI4aMOBHA2nbf44BMhG9z_fx3e1Wjdq28W-VOGUTCpAsZpwXpRt-3Rq9Jj4J7x-b4tILml6aqBAUpvhcj46qiEgWPJ9brNGb6B6WRg4MQFZwEqp-D3c3MF7WTtHOL-RsB6yIuScOPqc4vC-grtCTR58ydUWGRSEeXBfZyeTt3lNIAXyjauCCGr2mmuFbz&q=FUN360+Create+Assignment&sa=X&ved=2ahUKEwicpIGyi4qYAxXxbvUHHVPlEUkQs6gLegQIFxAB
+          - listitem [ref=f2e115]:
+            - button [ref=f2e116] [cursor=pointer]:
+              - generic "Các bộ lọc khác" [ref=f2e117]: Thêm
+        - button "Công cụ" [ref=f2e124] [cursor=pointer]
+    - heading "Kết quả tìm kiếm" [level=1] [ref=f2e131]
+    - generic [ref=f2e137]:
+      - generic [ref=f2e138]: Looking for results in English?
+      - link [ref=f2e139] [cursor=pointer]:
+        - /url: "#"
+      - link "Change to English" [ref=f2e143] [cursor=pointer]:
+        - /url: /setprefs?sig=0_edaaEE2NSy3ouLPCrA94PnuceBw%3D&source=en_ignored_notification&prev=https://www.google.com/search?q%3DFUN360%2BCreate%2BAssignment%26sei%3Dv7T5asP1D6zm1e8PutPGyAE&hl=en&sa=X&ved=2ahUKEwicpIGyi4qYAxXxbvUHHVPlEUkQhoQCKAF6BAgSEAQ
+      - link "Tiếp tục sử dụng Tiếng Việt" [ref=f2e144] [cursor=pointer]:
+        - /url: "#"
+      - link "Cài đặt ngôn ngữ" [ref=f2e146] [cursor=pointer]:
+        - /url: /preferences?lang=1&hl=vi&sa=X&ved=2ahUKEwicpIGyi4qYAxXxbvUHHVPlEUkQiIQCKAN6BAgSEAY#languages
+    - main [ref=f2e148]:
+      - generic [ref=f2e149]: Hiện không tạo được nội dung tổng quan sử dụng trí tuệ nhân tạo (AI). Hãy thử lại sau.
+      - generic [ref=f2e174]:
+        - generic [ref=f2e178]:
+          - generic [ref=f2e181]:
+            - heading "Web results" [level=2] [ref=f2e182]
+            - generic [ref=f2e183]:
+              - generic [ref=f2e186]:
+                - link "Creating an Assignment Zendesk https://flashlight360.zendesk.com › 2..." [ref=f2e188] [cursor=pointer]:
+                  - /url: /goto?url=CAESlgEBxCJF17fZP3gioCZmtK9J164Md2mTvLoxKiFoCzKEeziUXHII1X5iLKqNSNrwNJo3ElGb0kYCLPGX9ZQxM1UZ2FRssHP1zpLgOF7dME8MB0MvzVZPEmuczbTdUYK6bsKgezE0PVc-NoRhe8L90vk0JlQGJ1QeDD073phjWH9OLQCdmL-C9-PZ25nZJbPqG7W9E0IkdOY&gsessionid=q960N0P0pImHriGcnzzsv5s4PgHhW7VtgvNt_6vyeV6HwBEnaaXc0A
+                  - heading "Creating an Assignment" [level=3] [ref=f2e189]
+                  - generic [ref=f2e195]:
+                    - generic [ref=f2e196]: Zendesk
+                    - generic [ref=f2e198]: https://flashlight360.zendesk.com › 2...
+                - generic [ref=f2e200]:
+                  - generic [ref=f2e201]: ·
+                  - link "Dịch trang này" [ref=f2e202] [cursor=pointer]:
+                    - /url: /goto?url=CAES4AEBxCJF115LyQEzXKsqxkmcV32x8FoiIz74ZdPXfNFOOFWdvzYpBBxAk3D9aSfJ5OncjtK7tGhajJTTDv6Q0CCYUlFqg_Za2XyYigAnHgmilf6aVEmt0BVVP5qDo-AaYriEIxbw462WLCsdNBb5rib8M02x8DXKJyZ3wArAi82kFwL2Ups3wWp5l-B2wCfTAlP4Csuf3k_vo0_T8P4s6dIuFdwYKhRTTd14ELb2PlGeACFXT4YG8Rgxj_Yfe9625NLzIu9EhmfROD36Qx4ikGyBuGpZalEHFN5k7Zx2VgFb-g&gsessionid=q960N0P0pImHriGcnzzsv5s4PgHhW7VtgvNt_6vyeV6HwBEnaaXc0A
+                - button "Thông tin về kết quả này" [ref=f2e207] [cursor=pointer]
+              - generic [ref=f2e213]:
+                - generic [ref=f2e214]: 11 thg 6, 2026 —
+                - generic [ref=f2e215]:
+                  - text: Step-by-Step Instructions. From the landing page of your Teacher Dashboard,
+                  - emphasis [ref=f2e216]: select the Create button
+                  - text: ". 2. Image: In step 1 of the assignment ..."
+              - generic [ref=f2e218]:
+                - text: "Bị thiếu: FUN360 ‎| Phải có:"
+                - link "FUN360" [ref=f2e219] [cursor=pointer]:
+                  - /url: /search?sca_esv=8528aeba63dde0f5&sxsrf=AKL5yDhE6D-zSMrn29i4gYbELcD1-z6U8Q:1794749631691&q=%22FUN360%22+Create+Assignment&sa=X&ved=2ahUKEwicpIGyi4qYAxXxbvUHHVPlEUkQ5t4CegQILBAB
+          - generic [ref=f2e223]:
+            - generic [ref=f2e226]:
+              - link "FON Manage Assignments Fonteva https://fun.fonteva.com › article › fon-..." [ref=f2e228] [cursor=pointer]:
+                - /url: /goto?url=CAESegHEIkXXFjihkBcp-WcRqi4FYN5Sac8VufTpePooglS23MXXL_56V75HzHkNXB2KDBP8LO0Fw98JZuRrzOnXHWaIJec3dTkPgmHio-sSl3YfbMERuJn5XFJsSkgBPHskl-NumZZ-Yz29qFZFAiTm708rL3-3LYfJPkNo&gsessionid=q960N0P0pImHriGcnzzsv5s4PgHhW7VtgvNt_6vyeV6HwBEnaaXc0A
+                - heading "FON Manage Assignments" [level=3] [ref=f2e229]
+                - generic [ref=f2e238]:
+                  - generic [ref=f2e239]: Fonteva
+                  - generic [ref=f2e241]: https://fun.fonteva.com › article › fon-...
+              - generic [ref=f2e243]:
+                - generic [ref=f2e244]: ·
+                - link "Dịch trang này" [ref=f2e245] [cursor=pointer]:
+                  - /url: /goto?url=CAESxAEBxCJF1zAqa8lzE9gzj07TpwWnnKKeKlg5YFzMxeECvyXnHynWXUrZKXiacuCFxVXSVAtxbTdg1JwGnMiCyFQTquYvd4y8FDSCMU0v3Tk3Qt4n_M7mXJTBc14zO05-Q800seweOwT78AwtU7UOUhSlvIZeijZXjC3NvPbk0KC_uAm-UN_KqoYXGrbMFSWG4xhnq-IRx4hF2NsLPDq9Rn0FNXGOhF-mxgJ4ePPsX8x0Mp4qcr_4cyEUKpkdx9gw0t_louOU&gsessionid=q960N0P0pImHriGcnzzsv5s4PgHhW7VtgvNt_6vyeV6HwBEnaaXc0A
+              - button "Thông tin về kết quả này" [ref=f2e250] [cursor=pointer]
+            - generic [ref=f2e256]:
+              - generic [ref=f2e257]: 29 thg 10, 2026 —
+              - generic [ref=f2e258]:
+                - text: The FON Manage
+                - emphasis [ref=f2e259]: Assignments
+                - text: component displays a list of contacts on the account and enables site members to assign or unassign those ...
+            - generic [ref=f2e261]:
+              - text: "Bị thiếu: FUN360 ‎| Phải có:"
+              - link "FUN360" [ref=f2e262] [cursor=pointer]:
+                - /url: /search?sca_esv=8528aeba63dde0f5&sxsrf=AKL5yDhE6D-zSMrn29i4gYbELcD1-z6U8Q:1794749631691&q=%22FUN360%22+Create+Assignment&sa=X&ved=2ahUKEwicpIGyi4qYAxXxbvUHHVPlEUkQ5t4CegQIKhAB
+          - generic [ref=f2e266]:
+            - generic [ref=f2e269]:
+              - link "FUN360° Academy | Transforming Fun in Sport | Science of Fun fun360academy.org https://www.fun360academy.org" [ref=f2e271] [cursor=pointer]:
+                - /url: /goto?url=CAESWwHEIkXXURa8tVcCUvsu9EF-rUaf9qaH4MUJyk31vLlOa0UwQckOiUEoCmv2IrtyZseswAP7AKyfLdT9elvz3CTx5y_nGuEKVp2HNlv04lLqXErHNZ1tp18spG4&gsessionid=q960N0P0pImHriGcnzzsv5s4PgHhW7VtgvNt_6vyeV6HwBEnaaXc0A
+                - heading "FUN360° Academy | Transforming Fun in Sport | Science of Fun" [level=3] [ref=f2e272]
+                - generic [ref=f2e278]:
+                  - generic [ref=f2e279]: fun360academy.org
+                  - generic [ref=f2e281]: https://www.fun360academy.org
+              - generic [ref=f2e283]:
+                - generic [ref=f2e284]: ·
+                - link "Dịch trang này" [ref=f2e285] [cursor=pointer]:
+                  - /url: /goto?url=CAESpAEBxCJF185aXFTb3_DVXW9S3znuGeSWhdtYk74Hm4rG-dm9PPJbzl7PajV2LSTt2LWJArsVZtWO09WNdPOocxrF6KYzeIKawFMpVigMln-PiucRLbECnbdEdP3KjfhN1MQMLhlRoPePHyjS84HGgXWIeqrW8rHwgfvRc0hX04ZIgfyqdDZOxNY4boBn6WinKPG05N3jjpvb4q-WlgFTa6yp1OaiAQ&gsessionid=q960N0P0pImHriGcnzzsv5s4PgHhW7VtgvNt_6vyeV6HwBEnaaXc0A
+              - button "Thông tin về kết quả này" [ref=f2e290] [cursor=pointer]
+            - generic [ref=f2e297]:
+              - text: Discover
+              - emphasis [ref=f2e298]: FUN360° Academy
+              - text: ", an interactive, research-informed learning experience bringing the science of fun to everyone involved in sport."
+            - generic [ref=f2e300]:
+              - text: "Bị thiếu: Assignment ‎| Phải có:"
+              - link "Assignment" [ref=f2e301] [cursor=pointer]:
+                - /url: /search?sca_esv=8528aeba63dde0f5&sxsrf=AKL5yDhE6D-zSMrn29i4gYbELcD1-z6U8Q:1794749631691&q=FUN360+Create+%22Assignment%22&sa=X&ved=2ahUKEwicpIGyi4qYAxXxbvUHHVPlEUkQ5t4CegQIJxAB
+          - generic [ref=f2e305]:
+            - generic [ref=f2e308]:
+              - link "How to Create Assignments & Quizzes for Membership ... FG Funnels https://support.fgfunnels.com › article" [ref=f2e310] [cursor=pointer]:
+                - /url: /goto?url=CAESoAEBxCJF14OncO0njeedxYCKbYt4OooJ68zHhT2bhlNRgZSc2omkEtX-WWKAqSda_HPAqSnDXhUWYXpBfREvdznIGkeCLKT9rHFRJe5sYmFbLXlMhYju8Y1A0RdDpBNLZIIjlveLg_AXrWLfN0tj8-6fy_As3Wk2h0R-7xXunEfulbMqpxwK6UYKiM99H_wzXRk5nXEtzID5oxYi8KnPf7Te&gsessionid=q960N0P0pImHriGcnzzsv5s4PgHhW7VtgvNt_6vyeV6HwBEnaaXc0A
+                - heading "How to Create Assignments & Quizzes for Membership ..." [level=3] [ref=f2e311]
+                - generic [ref=f2e317]:
+                  - generic [ref=f2e318]: FG Funnels
+                  - generic [ref=f2e320]: https://support.fgfunnels.com › article
+              - generic [ref=f2e322]:
+                - generic [ref=f2e323]: ·
+                - link "Dịch trang này" [ref=f2e324] [cursor=pointer]:
+                  - /url: /goto?url=CAES6gEBxCJF12o-jsex6an_T3Tt1J6qTMR0kD-oIQDU_prbjC-qrBIFlFHua8LtVsix0bTHFeC0jQRWj10nWFyTT5AyvLCHuzxccypYwfsdaOVR0bWd1uo6KNKg5tpdXtlMUVT8Vt6naG7t5bDtWteRtUkHAxWJYoHOH0__nBLyAiqglFsoM_-MfxY1SUq1ZZ0547RpQgqt8lXFebCfYTDMuh5i9MOKVYrXInZjFrNgbxnOIB9xJl3ckM9xE94Kq5pVay0b6Dr4UOYMi8Gg2JL8fiK91rL5yTYsNwhPJRpfCMFxy5z1jP9c4VCrfMM&gsessionid=q960N0P0pImHriGcnzzsv5s4PgHhW7VtgvNt_6vyeV6HwBEnaaXc0A
+              - button "Thông tin về kết quả này" [ref=f2e329] [cursor=pointer]
+            - generic [ref=f2e335]:
+              - generic [ref=f2e336]: 27 thg 7, 2026 —
+              - generic [ref=f2e337]:
+                - text: 4. Add a Quiz or Assignment. Clicking + Add Content opens a menu.
+                - emphasis [ref=f2e338]: Select Add Quiz or Add Assignment
+                - text: to create a new item in that category.
+            - generic [ref=f2e340]:
+              - text: "Bị thiếu: FUN360 ‎| Phải có:"
+              - link "FUN360" [ref=f2e341] [cursor=pointer]:
+                - /url: /search?sca_esv=8528aeba63dde0f5&sxsrf=AKL5yDhE6D-zSMrn29i4gYbELcD1-z6U8Q:1794749631691&q=%22FUN360%22+Create+Assignment&sa=X&ved=2ahUKEwicpIGyi4qYAxXxbvUHHVPlEUkQ5t4CegQIKxAB
+          - generic [ref=f2e348]:
+            - generic [ref=f2e351]:
+              - 'link "Classroom 360- Creating, Copying and Editing Assignments YouTube · Raytown Schools >40 lượt xem: · 5 năm trước" [ref=f2e353] [cursor=pointer]':
+                - /url: /goto?url=CAESaAHEIkXXD0NKmoJ8lagt0iorvHBNh17AJ-_8XpeTNsabU-CJzwGPeYkEICj6ibnw-wkYvScv57ITSpuKJbYqrystXruS8eoKYUBYgOvLMxMP0U59GE-1gn_O00O1vpAmaK7vriRbdzsy&gsessionid=q960N0P0pImHriGcnzzsv5s4PgHhW7VtgvNt_6vyeV6HwBEnaaXc0A
+                - heading "Classroom 360- Creating, Copying and Editing Assignments" [level=3] [ref=f2e354]
+                - generic [ref=f2e360]:
+                  - generic [ref=f2e361]: YouTube · Raytown Schools
+                  - generic [ref=f2e363]: ">40 lượt xem: · 5 năm trước"
+              - button "Thông tin về kết quả này" [ref=f2e369] [cursor=pointer]
+            - generic [ref=f2e374]:
+              - button "Classroom 360- Creating, Copying and Editing Assignments của Raytown Schools trên YouTube. Phát trên Google. 5:11" [ref=f2e375] [cursor=pointer]:
+                - generic [ref=f2e376]: 5:11
+              - generic [ref=f2e392]: Managing your assignments in 360.
+            - button "8 khoảnh khắc chính trong video này" [ref=f2e398] [cursor=pointer]
+            - generic [ref=f2e409]:
+              - text: "Bị thiếu: FUN360 ‎| Phải có:"
+              - link "FUN360" [ref=f2e410] [cursor=pointer]:
+                - /url: /search?sca_esv=8528aeba63dde0f5&sxsrf=AKL5yDhE6D-zSMrn29i4gYbELcD1-z6U8Q:1794749631691&q=%22FUN360%22+Create+Assignment&sa=X&ved=2ahUKEwicpIGyi4qYAxXxbvUHHVPlEUkQ5t4CegQIHBAl
+          - generic [ref=f2e414]:
+            - generic [ref=f2e417]:
+              - link "Create a New Assignment Cengage Help https://help.cengage.com › webassign" [ref=f2e419] [cursor=pointer]:
+                - /url: /goto?url=CAESogEBxCJF1_NU3huhZZF3JVZ04aFq6q46eT6CxUZjypnKReS3I_PZBjLIy9QbFyg4CohtQmfxfTbJIvVmpHEThnYEssu4mS9qLgLodKhaDdfk4LuH9uPdXaAytPkoItteo3a3vPRB3dXjj7AV8JbIivdHrMvPi4UVOrl8F7kyyKAJp9-oBofJSa-PYOKyum-6RF-J7K-ZwWPKUOCwODT_RqOal6I&gsessionid=q960N0P0pImHriGcnzzsv5s4PgHhW7VtgvNt_6vyeV6HwBEnaaXc0A
+                - heading "Create a New Assignment" [level=3] [ref=f2e420]
+                - generic [ref=f2e426]:
+                  - generic [ref=f2e427]: Cengage Help
+                  - generic [ref=f2e429]: https://help.cengage.com › webassign
+              - generic [ref=f2e431]:
+                - generic [ref=f2e432]: ·
+                - link "Dịch trang này" [ref=f2e433] [cursor=pointer]:
+                  - /url: /goto?url=CAES7AEBxCJF1-h-lVbb6o-6sgMQggvN-0Cia_EqTSUP8f_7dDoVcJZst6Q23nwAD2lFsffLKBrPwfoNNVa-o3pJ4SIROzW5Xtd95HOS1PROv40i-tYzpJmp_8kBFsABFRzwZjj2p2356NmWoiV0qri9HS3saPX5-OEAh06FJe3RdMTKPOmXiedip7qqyIrfHuez6aou6OLHw8xl1bQ7nQanTMXx4GtsNLK49k7pMLnchKiPQC3l9znJOtudCR_ukoAD3AiVqZJBIfAnZZS4kthQMBS1mxm6E7lwHCWQsA0g3jUD9eK7LvICzFKZQADflw&gsessionid=q960N0P0pImHriGcnzzsv5s4PgHhW7VtgvNt_6vyeV6HwBEnaaXc0A
+              - button "Thông tin về kết quả này" [ref=f2e438] [cursor=pointer]
+            - generic [ref=f2e445]:
+              - emphasis [ref=f2e446]: Create a New Assignment
+              - text: · Click Assignments › Create Assignment. · Type an Assignment Name. · Optional Type Instructions to students for completing the assignment.
+            - generic [ref=f2e448]:
+              - text: "Bị thiếu: FUN360 ‎| Phải có:"
+              - link "FUN360" [ref=f2e449] [cursor=pointer]:
+                - /url: /search?sca_esv=8528aeba63dde0f5&sxsrf=AKL5yDhE6D-zSMrn29i4gYbELcD1-z6U8Q:1794749631691&q=%22FUN360%22+Create+Assignment&sa=X&ved=2ahUKEwicpIGyi4qYAxXxbvUHHVPlEUkQ5t4CegQIUxAB
+          - generic [ref=f2e453]:
+            - generic [ref=f2e456]:
+              - link "Creating an Assignment W. W. Norton & Company https://knowledgebase.wwnorton.com › ..." [ref=f2e458] [cursor=pointer]:
+                - /url: /goto?url=CAESkAEBxCJF19IW4HnjyMR7Nchax2XlNVVcAcsOrdp_zJluA8D_a2gVdiDk7I1Ty3rVsQj_LyYIQf8Fj5snJT8AIwmogX4gdazxV7CFdmAKaFWyHCLi4VqqsFhu8ZTcAxZxOF-aN7sO8P4LZ42FGQpzmPZnRLYJyzfZ_luVCpGh0YwRaoSui3px6QyfPnaRgnCuJzg&gsessionid=q960N0P0pImHriGcnzzsv5s4PgHhW7VtgvNt_6vyeV6HwBEnaaXc0A
+                - heading "Creating an Assignment" [level=3] [ref=f2e459]
+                - generic [ref=f2e465]:
+                  - generic [ref=f2e466]: W. W. Norton & Company
+                  - generic [ref=f2e468]: https://knowledgebase.wwnorton.com › ...
+              - generic [ref=f2e470]:
+                - generic [ref=f2e471]: ·
+                - link "Dịch trang này" [ref=f2e472] [cursor=pointer]:
+                  - /url: /goto?url=CAES2gEBxCJF1-OTAzx3Db4Qw2ApA1zV04M3XeaqU9ZxM-q_oSSolC3kvNe-hMN1evj3Bg1TSbyk1NDgS6WsQHXSxaP7WnrY6nUScIjeWpj7rQslwNJWN4kyrdTQiFNpTS5JdP2ZAlxWbdqJ57qkCPECESHQtHASZRUc0AVj0P-W8lJMucRjJiR-8-OSe5QNMwLnteCZqkPfxB4heySD_YR4lgnTJfuFRA3t16JnsA0_b1bOUWHNou5BeAMuIzBo0q6zGENLRZ2yLPrjJ-hGQYuNBllW47h6ZVCk2-FhwA&gsessionid=q960N0P0pImHriGcnzzsv5s4PgHhW7VtgvNt_6vyeV6HwBEnaaXc0A
+              - button "Thông tin về kết quả này" [ref=f2e477] [cursor=pointer]
+            - generic [ref=f2e483]:
+              - generic [ref=f2e484]: 18 thg 3, 2026 —
+              - generic [ref=f2e485]:
+                - text: "To create an assignment, do the following: On the Assignment List Page,"
+                - emphasis [ref=f2e486]: select the Student Set for which you would like to create
+                - text: the ...
+            - generic [ref=f2e488]:
+              - text: "Bị thiếu: FUN360 ‎| Phải có:"
+              - link "FUN360" [ref=f2e489] [cursor=pointer]:
+                - /url: /search?sca_esv=8528aeba63dde0f5&sxsrf=AKL5yDhE6D-zSMrn29i4gYbELcD1-z6U8Q:1794749631691&q=%22FUN360%22+Create+Assignment&sa=X&ved=2ahUKEwicpIGyi4qYAxXxbvUHHVPlEUkQ5t4CegQIUhAB
+          - generic [ref=f2e493]:
+            - generic [ref=f2e496]:
+              - link "FAQ | Fun360º fun360cam.com https://www.fun360cam.com › faq" [ref=f2e498] [cursor=pointer]:
+                - /url: /goto?url=CAESWgHEIkXXmAQtQyKvlZZWY9qZ853NvIM7iNKzJfxcEQZ_J8i8A6qkrP3FFdDinfgNjryAvDMDALTa1llmnPzpkVmwJ3OAXzGJea5ux1Cse6J0ES5747TNly-XfQ&gsessionid=q960N0P0pImHriGcnzzsv5s4PgHhW7VtgvNt_6vyeV6HwBEnaaXc0A
+                - heading "FAQ | Fun360º" [level=3] [ref=f2e499]
+                - generic [ref=f2e505]:
+                  - generic [ref=f2e506]: fun360cam.com
+                  - generic [ref=f2e508]: https://www.fun360cam.com › faq
+              - generic [ref=f2e510]:
+                - generic [ref=f2e511]: ·
+                - link "Dịch trang này" [ref=f2e512] [cursor=pointer]:
+                  - /url: /goto?url=CAESowEBxCJF19BwS0sRK5H6wKDjw4mSTAVudKGUNrKMxILDAgeex8T_RU99_y09WRDxfVniNtYHQ2GMt-NRBLsRAxFx1lgXa-QC-GMCgEEMx_789gWAGa0z8fxbv77SsSXeSS7Dg81dL6pPSHeizzOqsPDB8VoUW_Mg9l3Ta_UmcFkyqhJk9FtiuFaP_-MBpmM8QBiABvx4NllT-7nRYmwp0GCiq1Hj&gsessionid=q960N0P0pImHriGcnzzsv5s4PgHhW7VtgvNt_6vyeV6HwBEnaaXc0A
+              - button "Thông tin về kết quả này" [ref=f2e517] [cursor=pointer]
+            - generic [ref=f2e522]: We recommend a minimum 10'x10′ footprint for the 360 set-up. This allows room for the platform, spinning arm, Studio Lighting, photo props and easy access ...
+          - generic [ref=f2e528]:
+            - heading "Mọi người cũng hỏi" [level=2] [ref=f2e530]
+            - generic [ref=f2e531]:
+              - button "How can I create my own assignments?" [ref=f2e537] [cursor=pointer]
+              - button "How to do an assignment?" [ref=f2e551] [cursor=pointer]
+              - button "How to make an assignment creative?" [ref=f2e565] [cursor=pointer]
+              - button "What does turn-in assignment mean?" [ref=f2e579] [cursor=pointer]
+          - generic [ref=f2e589]:
+            - heading "Web results" [level=2] [ref=f2e590]
+            - generic [ref=f2e591]:
+              - generic [ref=f2e594]:
+                - link "How do I create and track Assignments? Education.com https://support.education.com › assign..." [ref=f2e596] [cursor=pointer]:
+                  - /url: /goto?url=CAESZwHEIkXXky1x3c-5D9IxFfljS8dwTd7NULnFB_iZe1gVxy8ITNUUkJqgvCVu27Wa9oU4pe_tx7d-SDpiFJf04FO3AeBI6xt0lLrl0VMTBkbhVtlfAlFhOXSgAZaME9SWXEH3kv2AYco&gsessionid=q960N0P0pImHriGcnzzsv5s4PgHhW7VtgvNt_6vyeV6HwBEnaaXc0A
+                  - heading "How do I create and track Assignments?" [level=3] [ref=f2e597]
+                  - generic [ref=f2e603]:
+                    - generic [ref=f2e604]: Education.com
+                    - generic [ref=f2e606]: https://support.education.com › assign...
+                - generic [ref=f2e608]:
+                  - generic [ref=f2e609]: ·
+                  - link "Dịch trang này" [ref=f2e610] [cursor=pointer]:
+                    - /url: /goto?url=CAESsAEBxCJF11fDqoo4Yj6658T9iWEJurdTC93CptBBbJop4xgj3ouELWvLOfNBTv8jvB3Ta1xKlQjaI8FadOwuVgZelCVOtJ0spGyPVNNSxJiDJsOlZ6yOucIhl0sq0luBW-lObyUPI2zU4HyKExZl3o9vjVJ52jwnn5zaJxAKp5aSsFH8Su0CpC7VRX8YhlFnW8iXCB9Jwia0Ludu4M02wN-ra7spT3ITF1wHHzcjOmg5KQ&gsessionid=q960N0P0pImHriGcnzzsv5s4PgHhW7VtgvNt_6vyeV6HwBEnaaXc0A
+                - button "Thông tin về kết quả này" [ref=f2e615] [cursor=pointer]
+              - generic [ref=f2e621]:
+                - generic [ref=f2e622]: 13 thg 7, 2023 —
+                - generic [ref=f2e623]:
+                  - text: "From here, you have two options:"
+                  - emphasis [ref=f2e624]: Add to an existing Assignment or Add to a new Assignment
+                  - text: . If you select Create new Assignment, give it a name.
+              - generic [ref=f2e626]:
+                - text: "Bị thiếu: FUN360 ‎| Phải có:"
+                - link "FUN360" [ref=f2e627] [cursor=pointer]:
+                  - /url: /search?sca_esv=8528aeba63dde0f5&sxsrf=AKL5yDhE6D-zSMrn29i4gYbELcD1-z6U8Q:1794749631691&q=%22FUN360%22+Create+Assignment&sa=X&ved=2ahUKEwicpIGyi4qYAxXxbvUHHVPlEUkQ5t4CegQIVRAB
+        - navigation [ref=f2e630]:
+          - heading "Điều hướng trang" [level=1] [ref=f2e631]
+          - text: "1"
+          - link "Trang 2" [ref=f2e634] [cursor=pointer]:
+            - /url: /search?q=FUN360+Create+Assignment&sca_esv=8528aeba63dde0f5&sxsrf=AKL5yDhE6D-zSMrn29i4gYbELcD1-z6U8Q:1794749631691&ei=v7T5atzII_Hd1e8P08rHyAQ&start=10&sa=N&sstk=AYl2yk_KVtQNJLP9uaRHJ7tYeVlORCk1uaVIbwXIMyPO4q0Lo8T37Z_PX1O5aIz2RIYO2rCV9PEVO57BXwmDh-9cyneD36F8wCFLIg&ved=2ahUKEwicpIGyi4qYAxXxbvUHHVPlEUkQ8tMDegQIPRAE
+            - text: "2"
+          - heading [level=2] [ref=f2e636]:
+            - link "Tiếp" [ref=f2e637] [cursor=pointer]:
+              - /url: /search?q=FUN360+Create+Assignment&sca_esv=8528aeba63dde0f5&sxsrf=AKL5yDhE6D-zSMrn29i4gYbELcD1-z6U8Q:1794749631691&ei=v7T5atzII_Hd1e8P08rHyAQ&start=10&sa=N&sstk=AYl2yk_KVtQNJLP9uaRHJ7tYeVlORCk1uaVIbwXIMyPO4q0Lo8T37Z_PX1O5aIz2RIYO2rCV9PEVO57BXwmDh-9cyneD36F8wCFLIg&ved=2ahUKEwicpIGyi4qYAxXxbvUHHVPlEUkQ8NMDegQIPRAG
+        - navigation
+    - contentinfo [ref=f2e640]:
+      - heading "Đường liên kết ở chân trang" [level=1] [ref=f2e641]
+      - generic [ref=f2e645]:
+        - generic [ref=f2e647]:
+          - text: Việt Nam
+          - generic [ref=f2e649]:
+            - button "Ngũ Hành Sơn, Đà Nẵng - Dựa trên địa chỉ IP của bạn" [ref=f2e651] [cursor=pointer]:
+              - generic [ref=f2e652]: Ngũ Hành Sơn, Đà Nẵng
+              - generic [ref=f2e654]:
+                - text: "-"
+                - generic [ref=f2e655]: Dựa trên địa chỉ IP của bạn
+            - text: "-"
+            - button "Cập nhật vị trí" [ref=f2e657] [cursor=pointer]
+        - generic [ref=f2e660]:
+          - link "Trợ giúp" [ref=f2e661] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=vi&fg=1
+          - button "Gửi ý kiến phản hồi" [ref=f2e663] [cursor=pointer]
+          - link "Quyền riêng tư" [ref=f2e665] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=vi&fg=1
+          - link "Điều khoản" [ref=f2e666] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=vi&fg=1

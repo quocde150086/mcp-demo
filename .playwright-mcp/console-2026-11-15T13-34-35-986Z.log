@@ -1,0 +1,8 @@
+[   16900ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://dev-auth.wilsonacademy.com/favicon.ico:1
+[   36322ms] TypeError: Cannot read properties of null (reading 'value')
+    at ulpRequiredFunction (https://dev-auth.wilsonacademy.com/u/login?state=hKFo2SByMy03Ym4xUXZ0VHhhaUVmaEczdjczSTVCUFpGd3Mtb6Fur3VuaXZlcnNhbC1sb2dpbqN0aWTZIGptejdTRnR3dVZ6R3BvcnFaVlgyLXRCaVVwS093djNho2NpZNkgTFp3bGdvb0x1MXhmbnIzQ3BQVXdEVnUya24xVThya2k:1011:9544)
+    at N (https://dev-auth.wilsonacademy.com/u/login?state=hKFo2SByMy03Ym4xUXZ0VHhhaUVmaEczdjczSTVCUFpGd3Mtb6Fur3VuaXZlcnNhbC1sb2dpbqN0aWTZIGptejdTRnR3dVZ6R3BvcnFaVlgyLXRCaVVwS093djNho2NpZNkgTFp3bGdvb0x1MXhmbnIzQ3BQVXdEVnUya24xVThya2k:1011:26761)
+    at https://dev-auth.wilsonacademy.com/u/login?state=hKFo2SByMy03Ym4xUXZ0VHhhaUVmaEczdjczSTVCUFpGd3Mtb6Fur3VuaXZlcnNhbC1sb2dpbqN0aWTZIGptejdTRnR3dVZ6R3BvcnFaVlgyLXRCaVVwS093djNho2NpZNkgTFp3bGdvb0x1MXhmbnIzQ3BQVXdEVnUya24xVThya2k:1011:28319
+    at Array.filter (<anonymous>)
+    at I (https://dev-auth.wilsonacademy.com/u/login?state=hKFo2SByMy03Ym4xUXZ0VHhhaUVmaEczdjczSTVCUFpGd3Mtb6Fur3VuaXZlcnNhbC1sb2dpbqN0aWTZIGptejdTRnR3dVZ6R3BvcnFaVlgyLXRCaVVwS093djNho2NpZNkgTFp3bGdvb0x1MXhmbnIzQ3BQVXdEVnUya24xVThya2k:1011:28293)
+    at HTMLFormElement.<anonymous> (https://dev-auth.wilsonacademy.com/u/login?state=hKFo2SByMy03Ym4xUXZ0VHhhaUVmaEczdjczSTVCUFpGd3Mtb6Fur3VuaXZlcnNhbC1sb2dpbqN0aWTZIGptejdTRnR3dVZ6R3BvcnFaVlgyLXRCaVVwS093djNho2NpZNkgTFp3bGdvb0x1MXhmbnIzQ3BQVXdEVnUya24xVThya2k:1011:29273)

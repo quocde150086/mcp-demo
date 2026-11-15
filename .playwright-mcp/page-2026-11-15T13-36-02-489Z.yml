@@ -1,0 +1,184 @@
+- generic [ref=f12e3]:
+  - generic [ref=f12e5]:
+    - navigation "Sidebar" [ref=f12e8]:
+      - link "Navigate Home" [ref=f12e9] [cursor=pointer]:
+        - /url: /dashboard
+      - list [ref=f12e12]:
+        - listitem [ref=f12e13]:
+          - list [ref=f12e14]:
+            - listitem [ref=f12e15]:
+              - button "Teacher Dashboard" [ref=f12e16] [cursor=pointer]
+        - listitem [ref=f12e19]:
+          - button "FUN HUB Practice (FHP)" [ref=f12e20] [cursor=pointer]
+          - list [ref=f12e22]:
+            - listitem [ref=f12e23]:
+              - button "Create Assignment" [ref=f12e24] [cursor=pointer]
+            - listitem [ref=f12e27]:
+              - button "Assignment Results" [ref=f12e28] [cursor=pointer]
+            - listitem [ref=f12e31]:
+              - button "Student Results" [ref=f12e32] [cursor=pointer]
+        - listitem [ref=f12e35]:
+          - button "Assessments" [ref=f12e36] [cursor=pointer]
+          - list:
+            - listitem [ref=f12e38]:
+              - button "Unit Test Tracker (UTT)" [ref=f12e39] [cursor=pointer]
+            - listitem [ref=f12e42]:
+              - button "Skills Reports" [ref=f12e43] [cursor=pointer]
+        - listitem [ref=f12e46]:
+          - button "Resources" [ref=f12e47] [cursor=pointer]
+          - list:
+            - listitem [ref=f12e49]:
+              - button "PL & Teacher Support" [ref=f12e50] [cursor=pointer]
+            - listitem [ref=f12e53]:
+              - button "Acadience® Insights" [ref=f12e54] [cursor=pointer]
+        - listitem [ref=f12e57]:
+          - button "Setup & Management" [ref=f12e58] [cursor=pointer]
+          - list:
+            - listitem [ref=f12e60]:
+              - button "Class Management" [ref=f12e61] [cursor=pointer]
+        - listitem [ref=f12e64]:
+          - button "Wilson Academy" [ref=f12e65] [cursor=pointer]
+      - button "Expand Sidebar" [ref=f12e68] [cursor=pointer]
+    - banner:
+      - generic:
+        - generic [ref=f12e71]:
+          - generic [ref=f12e72]: "School Year: 2026-2027"
+          - button "User Avatar Button, QA, Duong7" [ref=f12e73] [cursor=pointer]:
+            - generic [ref=f12e74]: DQ
+        - dialog "User Profile Overlay"
+    - generic [ref=f12e76]:
+      - navigation "Breadcrumb" [ref=f12e78]:
+        - heading "FHP Create Assignment" [level=2] [ref=f12e79]
+      - main [ref=f12e80]:
+        - generic [ref=f12e81]:
+          - heading "Create Assignment" [level=1] [ref=f12e82]
+          - generic [ref=f12e83]:
+            - generic [ref=f12e85]:
+              - generic [ref=f12e87] [cursor=pointer]:
+                - combobox "AutoClass L1 13cncc" [active] [ref=f12e158]
+                - button "dropdown trigger" [ref=f12e90]
+              - generic [ref=f12e159] [cursor=pointer]:
+                - combobox "Unit 2" [ref=f12e160]
+                - button "dropdown trigger" [ref=f12e163]
+              - generic [ref=f12e166] [cursor=pointer]:
+                - generic [ref=f12e167]:
+                  - combobox "Select a Week": "2"
+                - generic [ref=f12e168]: All Weeks
+              - generic [ref=f12e96]: Level 1
+            - table [ref=f12e177]:
+              - rowgroup [ref=f12e178]:
+                - row [ref=f12e179]:
+                  - columnheader "Select All Checkbox" [ref=f12e180]:
+                    - generic "Select All" [ref=f12e181]:
+                      - checkbox "Select All Checkbox" [ref=f12e183] [cursor=pointer]
+                  - columnheader "Unit" [ref=f12e185]
+                  - columnheader "Week" [ref=f12e186] [cursor=pointer]
+                  - columnheader "Activity Name" [ref=f12e189]
+                  - columnheader "Targeted Concepts" [ref=f12e190]
+                  - columnheader "Literacy Skills " [ref=f12e191]:
+                    - generic [ref=f12e192]:
+                      - text: Literacy Skills
+                      - generic [ref=f12e193]: 
+              - rowgroup [ref=f12e194]:
+                - row [ref=f12e195]:
+                  - cell [ref=f12e196]:
+                    - checkbox "Select assignment Not So Tricky! checkbox" [ref=f12e199] [cursor=pointer]
+                  - cell "2" [ref=f12e201]
+                  - cell "2" [ref=f12e202]
+                  - cell [ref=f12e203]:
+                    - generic [ref=f12e204]:
+                      - img "Image for activity 1" [ref=f12e205]
+                      - generic [ref=f12e206]:
+                        - text: Not So Tricky!
+                        - button " View Activity" [ref=f12e208] [cursor=pointer]:
+                          - generic [ref=f12e209]: 
+                          - generic [ref=f12e210]: View Activity
+                      - generic "Activity description" [ref=f12e211]: In the Not So Tricky activity, students will practice reading new and previously learned Trick Words automatically. They will then use Trick Words from a bank to complete sentences.
+                  - cell [ref=f12e213]:
+                    - img "Targeted Concepts Icon" [ref=f12e217]
+                  - cell [ref=f12e218]:
+                    - list [ref=f12e222]:
+                      - listitem [ref=f12e223]: Recognize and read common grade-level high frequency words
+                      - listitem [ref=f12e224]: Use context to confirm or self-correct word recognition and understanding, rereading as necessary
+                      - listitem [ref=f12e225]:
+                        - generic "Toggle Additional Literacy Skills" [ref=f12e226] [cursor=pointer]:
+                          - generic [ref=f12e227]: Additional Literacy Skills
+                          - generic [ref=f12e228]: 
+                - row [ref=f12e229]:
+                  - cell [ref=f12e230]:
+                    - checkbox "Select assignment Make a Change checkbox" [ref=f12e233] [cursor=pointer]
+                  - cell "2" [ref=f12e235]
+                  - cell "2" [ref=f12e236]
+                  - cell [ref=f12e237]:
+                    - generic [ref=f12e238]:
+                      - img "Image for activity 2" [ref=f12e239]
+                      - generic [ref=f12e240]:
+                        - text: Make a Change
+                        - button " View Activity" [ref=f12e242] [cursor=pointer]:
+                          - generic [ref=f12e243]: 
+                          - generic [ref=f12e244]: View Activity
+                      - generic "Activity description" [ref=f12e245]: During the Make a Change activity, students will practice their ability to distinguish and manipulate sounds. The objective is to make a change to a word, to form a new word. These changes can occur at the beginning, middle or end of a word. In the first phase, students will listen carefully to identify the position of the sound change. In the second phase students will repeat the process, connecting sounds to graphemes. Finally, in the last phase, students will find the letter or letter combination to create the new word.
+                  - cell [ref=f12e247]:
+                    - img "Targeted Concepts Icon" [ref=f12e251]
+                  - cell [ref=f12e252]:
+                    - list [ref=f12e256]:
+                      - listitem [ref=f12e257]: Manipulate sounds (initial, final, medial)
+                      - listitem [ref=f12e258]: Name and apply sound-symbol correspondence for common spelling patterns
+                      - listitem [ref=f12e259]:
+                        - generic "Toggle Additional Literacy Skills" [ref=f12e260] [cursor=pointer]:
+                          - generic [ref=f12e261]: Additional Literacy Skills
+                          - generic [ref=f12e262]: 
+                - row [ref=f12e263]:
+                  - cell [ref=f12e264]:
+                    - checkbox "Select assignment Build Words with Echo checkbox" [ref=f12e267] [cursor=pointer]
+                  - cell "2" [ref=f12e269]
+                  - cell "2" [ref=f12e270]
+                  - cell [ref=f12e271]:
+                    - generic [ref=f12e272]:
+                      - img "Image for activity 3" [ref=f12e273]
+                      - generic [ref=f12e274]:
+                        - text: Build Words with Echo
+                        - button " View Activity" [ref=f12e276] [cursor=pointer]:
+                          - generic [ref=f12e277]: 
+                          - generic [ref=f12e278]: View Activity
+                      - generic "Activity description" [ref=f12e279]: Students will practice their segmenting and encoding skills. They will use letter tiles to build one-syllable and multisyllabic words with and without suffixes.
+                  - cell [ref=f12e281]:
+                    - img "Targeted Concepts Icon" [ref=f12e285]
+                  - cell [ref=f12e286]:
+                    - list [ref=f12e290]:
+                      - listitem [ref=f12e291]: Name and apply sound-symbol correspondence for common spelling patterns
+                      - listitem [ref=f12e292]: Encode regularly spelled words
+                      - listitem [ref=f12e293]: "Analyze word structure: apply grade-level phonics and word analysis skills"
+                      - listitem [ref=f12e294]:
+                        - generic "Toggle Additional Literacy Skills" [ref=f12e295] [cursor=pointer]:
+                          - generic [ref=f12e296]: Additional Literacy Skills
+                          - generic [ref=f12e297]: 
+                - row [ref=f12e298]:
+                  - cell [ref=f12e299]:
+                    - checkbox "Select assignment Word Find FUN checkbox" [ref=f12e302] [cursor=pointer]
+                  - cell "2" [ref=f12e304]
+                  - cell "2" [ref=f12e305]
+                  - cell [ref=f12e306]:
+                    - generic [ref=f12e307]:
+                      - img "Image for activity 4" [ref=f12e308]
+                      - generic [ref=f12e309]:
+                        - text: Word Find FUN
+                        - button " View Activity" [ref=f12e311] [cursor=pointer]:
+                          - generic [ref=f12e312]: 
+                          - generic [ref=f12e313]: View Activity
+                      - generic "Activity description" [ref=f12e314]: Students will accurately read a list of phonetic words from a carousel. They will be instructed to mark two of the words using the correct markings from the bank that match the named word structures. A grid with all the words will appear and students will listen for a clue. They will be directed to find all the words that match the given clue.
+                  - cell [ref=f12e316]:
+                    - img "Targeted Concepts Icon" [ref=f12e320]
+                  - cell [ref=f12e321]:
+                    - list [ref=f12e325]:
+                      - listitem [ref=f12e326]: Read regularly spelled words
+                      - listitem [ref=f12e327]: Name and apply sound-symbol correspondence for common spelling patterns
+                      - listitem [ref=f12e328]: "Analyze word structure: apply grade-level phonics and word analysis skills"
+                      - listitem [ref=f12e329]:
+                        - generic "Toggle Additional Literacy Skills" [ref=f12e330] [cursor=pointer]:
+                          - generic [ref=f12e331]: Additional Literacy Skills
+                          - generic [ref=f12e332]: 
+      - contentinfo [ref=f12e102]:
+        - paragraph [ref=f12e103]: © 2026 Wilson Language Training Corp. All Rights Reserved.
+  - generic:
+    - alertdialog
